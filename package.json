@@ -1,0 +1,20 @@
+{
+  "name": "discord-mirror",
+  "version": "1.0.0",
+  "description": "A simple function that mirror posts in a public channel into your own channel.",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "selfcore": "^1.1.1"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
